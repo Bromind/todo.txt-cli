@@ -630,6 +630,10 @@ export LIGHT_CYAN='\\033[1;36m'
 export WHITE='\\033[1;37m'
 export DEFAULT='\\033[0m'
 
+# Default graphic renderers
+export UNDERLINE='\\033[4m'
+export SWAP='\\033[7m'
+
 # Default priority->color map.
 export PRI_A=$YELLOW        # color for A priority
 export PRI_B=$GREEN         # color for B priority
